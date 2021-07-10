@@ -1530,3 +1530,29 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+
+/*--------------------------------------------------------------
+# Custom
+--------------------------------------------------------------*/
+
+.link{
+  background: #ffc451;
+    border: 0;
+    padding: 10px 24px;
+    color: #151515;
+    transition: 0.4s;
+    border-radius: 4px;
+    display: block;
+}
+.link:hover{
+  text-decoration: none;
+  color: black;
+  opacity: 0.5;
+}
+
+/* @media (max-width:670px) {
+  .link{
+    display: block;
+  }
+} */
